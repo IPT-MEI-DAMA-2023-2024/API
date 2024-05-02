@@ -64,7 +64,7 @@ class MainActivity : AppCompatActivity() {
         recyclerView.adapter = NoteListAdapter(notes, this)
         // how the card will be organized
         val layoutManager = StaggeredGridLayoutManager(
-            2, StaggeredGridLayoutManager.VERTICAL
+            3, StaggeredGridLayoutManager.VERTICAL
         )
         recyclerView.layoutManager = layoutManager
     }
