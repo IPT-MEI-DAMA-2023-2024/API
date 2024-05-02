@@ -16,6 +16,12 @@
         android:text="@string/button_text"
         android:layout_gravity="center"/>
 
+    <Button
+        android:id="@+id/btNewNote2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text2"
+        android:layout_gravity="center"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/nodeList"
